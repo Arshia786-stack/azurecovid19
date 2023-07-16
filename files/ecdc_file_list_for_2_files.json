@@ -1,0 +1,10 @@
+[
+    {
+        "sourceRelativeURL":"",
+        "sinkFileName":"cases_deaths.csv"
+    },
+    {
+        "sourceRelativeURL":"",
+        "sinkFileName":"hospital_admissions.csv"
+    }
+]

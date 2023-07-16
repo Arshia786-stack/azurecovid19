@@ -1,0 +1,22 @@
+[
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"YOUR GITHUB LINK",
+        "sinkFileName":"cases_deaths/cases_deaths.csv"
+    },
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"",
+        "sinkFileName":"hospital_admissions/hospital_admissions.csv"
+    },
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"",
+        "sinkFileName":"testing/testing.csv"
+    },
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"",
+        "sinkFileName":"country_response/country_response.csv"
+    }
+]
