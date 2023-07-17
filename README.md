@@ -1,5 +1,29 @@
-# Data factory on Covid-19
+# COVID-19 Data Factory Project using Azure
 
-Azure Data Factory (ADF) is a fully managed cloud-based data integration service from Microsoft Azure. It is designed to help organizations efficiently move and transform large amounts of data from various sources into a centralized data store, such as Azure Data Lake Storage or Azure SQL Database. ADF enables you to create data pipelines using a code-free UI that provides an intuitive authoring experience. You can easily define data transformations, set up data flow dependencies, and schedule the data processing using a visual interface. The pipelines can be triggered on-demand or scheduled to run on a specific schedule, such as daily or weekly. In addition to the UI-based authoring, ADF also supports code-based authoring using Azure Resource Manager (ARM) templates or .NET SDK. This allows you to automate the deployment of pipelines and manage them programmatically, making it easier to manage large-scale data integration scenarios. One of the key benefits of ADF is its scalability. It can handle large amounts of data and automatically scale resources as needed to ensure fast and efficient processing. This makes it ideal for organizations with unpredictable data growth patterns or those that need to process data in real-time. ADF also provides a single-pane-of-glass monitoring and management experience, which allows you to track the status of your data pipelines and manage them in a centralized location. This includes the ability to track data lineage, monitor performance, and troubleshoot issues. Finally, ADF also provides support for existing SQL Server Integration Services (SSIS) packages. You can easily lift and shift your SSIS packages to Azure and run them in ADF with full compatibility, preserving your investment in your existing data integration infrastructure. This allows you to take advantage of the scalability, reliability, and security of Azure while still using your existing data integration workflows.
+![Azure Data Factory](https://example.com/azure-data-factory.png)
 
-The goal of this project is to construct a data pipeline that can be used in real-world scenarios using Azure Data Factory (ADF). The data will be sourced from various locations, such as the European Centre for Disease Prevention and Control (ECDC) and World Health Organization (WHO). The data will then be ingested into Azure Data Lake Gen2, which is a cloud-based data storage solution, using ADF. Once the data is stored in the data lake, various big data services will be used to analyze and transform the data. These services will help to make sense of the large amounts of data and extract valuable insights that can inform decision-making and drive progress. The pipelines created in this project will be monitored continuously to ensure that they are functioning correctly. This monitoring will be achieved using ADF, Azure Monitor, and Log Analytics. These tools will help to identify any potential issues or problems that may arise during the pipeline's operation and allow for quick resolution. In summary, this project aims to demonstrate how to build a real-world data pipeline using Azure Data Factory (ADF). The pipeline will gather data from multiple sources, store it in a cloud-based data lake, analyze and transform the data using big data services, and monitor the pipelines to ensure their proper functioning.
+This project utilizes Azure technologies, including Azure Data Factory (ADF), to construct a data pipeline for gathering, transforming, and presenting COVID-19 data. The pipeline retrieves data from sources such as the European Centre for Disease Prevention and Control (ECDC) and the World Health Organization (WHO). The data is then processed and stored in Azure Data Lake Gen2. The goal is to create interactive dashboards using Power BI to visualize and analyze the data effectively.
+
+## Technologies Used
+
+- Azure Data Factory (ADF): A fully managed cloud-based data integration service from Microsoft Azure.
+- Azure Data Lake Gen2: A cloud-based data storage solution for storing and managing large amounts of data.
+- Azure Databricks: An Apache Spark-based analytics platform used for big data processing and transformation.
+- Azure HDInsight: A cloud-based service for running Apache Hadoop, Spark, Hive, and other big data frameworks.
+- Power BI: A business analytics service that provides interactive visualizations and dashboards.
+
+## Project Overview
+
+1. **Data Ingestion**: Data is sourced from various locations, such as ECDC and WHO, using Azure Data Factory. ADF retrieves the data and loads it into Azure Data Lake Gen2 for further processing.
+
+2. **Data Transformation**: Azure Databricks is used to perform data transformation tasks. This includes cleaning, aggregating, and enriching the data to prepare it for analysis.
+
+3. **Data Analysis**: Azure HDInsight is employed for big data processing and analytics. It provides powerful tools for analyzing large volumes of data and extracting meaningful insights.
+
+4. **Dashboard Creation**: Power BI is utilized to create interactive and visually appealing dashboards. These dashboards provide real-time insights into COVID-19 data, enabling informed decision-making.
+
+5. **Monitoring and Management**: Azure Data Factory, Azure Monitor, and Log Analytics are employed to continuously monitor the data pipelines. This ensures their smooth operation and allows for prompt issue resolution.
+
+Feel free to adapt and extend the project to meet your unique needs and preferences.
+
+
