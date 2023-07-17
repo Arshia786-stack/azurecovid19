@@ -1,7 +1,5 @@
 # COVID-19 Data Factory Project using Azure
 
-![Azure Data Factory](https://example.com/azure-data-factory.png)
-
 This project utilizes Azure technologies, including Azure Data Factory (ADF), to construct a data pipeline for gathering, transforming, and presenting COVID-19 data. The pipeline retrieves data from sources such as the European Centre for Disease Prevention and Control (ECDC) and the World Health Organization (WHO). The data is then processed and stored in Azure Data Lake Gen2. The goal is to create interactive dashboards using Power BI to visualize and analyze the data effectively.
 
 ## Technologies Used
